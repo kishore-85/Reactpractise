@@ -19,6 +19,7 @@ import Useeffect2 from './Useeffect2';
 import Customer from './Redux/reduxtry/Customer';
 import Product from './Redux/reduxtry/Product';
 import Formvaldiation from './fromtest/Formvaldiation';
+import Branch2 from './Branch2';
 
 function App(){
 
@@ -44,9 +45,9 @@ function App(){
     {/* <Useeffect2></Useeffect2> */}
    {/* <Customer></Customer>
    <Product></Product> */}
-   <Formvaldiation></Formvaldiation>
+   {/* <Formvaldiation></Formvaldiation> */}
    
-    
+    <Branch2></Branch2>
     </>
   )
 
