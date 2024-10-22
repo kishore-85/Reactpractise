@@ -26,6 +26,7 @@ import Category from './Hooks/useCallback/Category';
 import Ex from './Hooks/useCallback/Ex';
 import Memo from './Hooks/useCallback/useMemo/Memo';
 import Axios1 from './Async/Axios/Axios1';
+import Useeffect from './Hooks/useCallback/useeffect/useeffect';
 
 
 function App(){
@@ -61,7 +62,8 @@ function App(){
      {/* <Category></Category> */}
      {/* <Ex></Ex> */}
      {/* <Memo></Memo> */}
-     <Axios1></Axios1>
+     {/* <Axios1></Axios1> */}
+     <Useeffect></Useeffect>
     </>
   )
 
