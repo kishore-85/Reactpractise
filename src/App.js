@@ -20,6 +20,13 @@ import Customer from './Redux/reduxtry/Customer';
 import Product from './Redux/reduxtry/Product';
 import Formvaldiation from './fromtest/Formvaldiation';
 import Branch2 from './Branch2';
+import UseStateEx2 from './UseStateEx2';
+import Custom from './Async/Todo_list/Custom';
+import Category from './Hooks/useCallback/Category';
+import Ex from './Hooks/useCallback/Ex';
+import Memo from './Hooks/useCallback/useMemo/Memo';
+import Axios1 from './Async/Axios/Axios1';
+
 
 function App(){
 
@@ -47,7 +54,14 @@ function App(){
    <Product></Product> */}
    {/* <Formvaldiation></Formvaldiation> */}
    
-    <Branch2></Branch2>
+    {/* <Branch2></Branch2> */}
+    {/* <UseStateEx2></UseStateEx2> */}
+    {/* <Custom></Custom> */}
+    
+     {/* <Category></Category> */}
+     {/* <Ex></Ex> */}
+     {/* <Memo></Memo> */}
+     <Axios1></Axios1>
     </>
   )
 
